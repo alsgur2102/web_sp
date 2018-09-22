@@ -7,6 +7,34 @@ public class Test {
 	private String name;
 	private Integer age;
 	private String adddress;
+	private String tname;
+	private Integer tnum;
+	private Integer tage;
+	
+	@Override
+	public String toString() {
+		return "Test [name=" + name + ", age=" + age + ", adddress=" + adddress + ", tname=" + tname + ", tnum=" + tnum
+				+ ", tage=" + tage + "]";
+	}
+	
+	public String getTname() {
+		return tname;
+	}
+	public void setTname(String tname) {
+		this.tname = tname;
+	}
+	public Integer getTnum() {
+		return tnum;
+	}
+	public void setTnum(Integer tnum) {
+		this.tnum = tnum;
+	}
+	public Integer getTage() {
+		return tage;
+	}
+	public void setTage(Integer tage) {
+		this.tage = tage;
+	}
 	public String getName() {
 		return name;
 	}
