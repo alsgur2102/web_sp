@@ -13,8 +13,7 @@ public class TestDAOImpl implements TestDAO	{
 
 	@Override
 	public List<Map<String, String>> getList() {
-		List<Map<String,String>> list
-		 = new ArrayList<Map<String,String>>();
+		List<Map<String,String>> list = new ArrayList<Map<String,String>>();
 		for(int i=1;i<=10;i++) {
 			Map<String,String> map = new HashMap<String,String>();
 			map.put("name", "이름" + i);
